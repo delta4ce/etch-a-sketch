@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.canvas {
+  outline: 1px solid lime;
+  min-height: 400px;
+  min-width: 400px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.cell {
+  outline: 1px dotted lime;
+  min-height: 16px;
+  
+  flex: 0 0 16px;
+}
+.cell:hover {
+  background: lime;
+}
